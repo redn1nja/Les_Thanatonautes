@@ -2,6 +2,12 @@ import pytesseract
 import cv2
 def recognision(address: str) -> None: 
     """
+    requires:
+    $ sudo apt install tesseract-ocr (ubuntu, idk bout arch/manjaro)
+    $ sudo apt-get install tesseract-ocr-ukr (ubuntu, idk bout arch/manjaro)
+    $ pip install opencv-contrib-python
+    $ pip install pytesseract
+
     Parses the text without precision
     Param: address: str -- string of address of photo without .jpeg and folder name. 
     """
